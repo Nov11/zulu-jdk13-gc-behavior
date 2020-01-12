@@ -6,6 +6,9 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * -XX:+UseG1GC -Xmx100m -Xlog:gc*:g1gc.log:time
+ */
 public class DriveG1 {
     private static final Logger logger = LoggerFactory.getLogger(DriveG1.class);
 

@@ -6,6 +6,9 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -Xmx100m -Xlog:gc*
+ */
 public class DriveZGC {
     private static final Logger logger = LoggerFactory.getLogger(DriveZGC.class);
 
